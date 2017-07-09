@@ -69,3 +69,30 @@ html {
     padding-left: 32px;
 }
 
+
+/*start learning container pictures and info hidden on mobile*/
+.entire-start-learning-container {
+    display: none;
+}
+
+.start-learning-mobile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 32px;
+    border-bottom: .75px solid lightgrey;
+}
+
+.start-learning-title {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.start-learning-mobile-course {
+    background-color: lightgrey;
+    padding: 16px 0 16px 16px;
+    margin-bottom: 8px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
