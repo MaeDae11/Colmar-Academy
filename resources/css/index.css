@@ -1,0 +1,26 @@
+.navigation-header {
+    height: 64px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-image-container {
+    height: 180px;
+    background-color: gray;
+}
+
+.banner-image {
+    display: none;
+}
+
+.banner-slogan-container {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+.banner-slogan {
+    padding: 16px 32px;
+}
+
+
+
