@@ -155,14 +155,15 @@ video {
     margin-top: 24px;
 }
 
-
+/**********************************/
+/**********************************/
+/**********************************/
+/**********************************/
 @media only screen and (min-width: 700px){
-
 
     .col-two-thirds {
         width: 60%;
         float: left;
-        border: 2px solid yellow;
     }
     /*.col-third {
         width: 35%;
@@ -250,19 +251,20 @@ video {
 
     /*left side small articles*/
     .left-middle-container {
-        border-bottom: .75px solid lightgrey;
-        padding-bottom: 32px;
+        border-right: .75px solid lightgrey;
+        border-left: .75px solid lightgrey;
         clear: both;
+        padding-top: 10px;
+        width: 423px;
     }
     /*left side small articles*/
     .middle-article-container {
         padding: 0;
-        padding-top: 32px;
-        width: 423px;
+        height: 168px;
+        width: 100%;
         display: flex;
-        border-left: .75px solid lightgrey;
+        align-items: center;
         border-bottom: .75px solid lightgrey;
-        border: 2px solid pink;
     }
     /*left side small images*/
     .middle-article-image {
@@ -278,6 +280,50 @@ video {
         padding-right: 32px;
         padding-left: 32px;
     }
+
+
+    /**********************/
+    /*start learningn secton*/
+    .start-learning-mobile-container {
+        display: none;
+    }
+    .start-learning-mobile-course {
+        display: none;
+    }
+    .entire-start-learning-container {
+        width: 1024px;
+        display: flex;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: lightgrey;
+        padding-bottom: 32px;
+    }
+
+    .start-learning-title {
+        width: 100%;
+    }
+
+    .start-learning-container {
+        background-color: white;
+        height: 269px;
+        width: 25%;
+        margin: 0 16px 16px 16px;
+        font-size: 14px;
+    }
+
+    .start-learning-image {
+        width: 100%;
+    }
+
+    .start-learning-image img {
+        width: 100%;
+    }
+
+
+    /*****************************/
+    /*Thesis Exhibit*/
+
 
 
 
