@@ -1,11 +1,22 @@
+html {
+
+}
+/************************/
+/*MOBILE*/
+
+/*navigation header*/
 .navigation-header {
     height: 64px;
     display: flex;
     justify-content: space-around;
 }
 
+
+
+/*banner*/
 .banner-image-container {
     height: 180px;
+    width: 100%;
     background-color: gray;
 }
 
@@ -24,8 +35,37 @@
 
 
 
+/*middle articles*/
+.entire-middle-article-container {
+    width: 100%;
+}
 
 
+
+/*large images for desktop set to display:none*/
 .large {
     display: none;
 }
+.left-middle-container {
+    border-bottom: .75px solid lightgrey;
+    padding-bottom: 32px;
+}
+
+.middle-article-container {
+    padding: 16px;
+}
+
+.middle-article-image {
+    width: 100%;
+}
+
+.middle-article-image img {
+    width: 100%;
+}
+
+.middle-article-info {
+    width: 100%;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
