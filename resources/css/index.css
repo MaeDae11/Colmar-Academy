@@ -211,7 +211,6 @@ video {
         justify-content: center;
         width: 423px;
         padding-left: 20px;
-        border: 2px solid pink;
     }
 
     .banner-slogan {
@@ -323,6 +322,36 @@ video {
 
     /*****************************/
     /*Thesis Exhibit*/
+    .thesis-exhibits-entire-container .left-middle-container {
+        display: unset;
+    }
+    .thesis-exhibits-info {
+        display: unset;
+    }
+     .hidden-mobile-info{
+        display: unset;
+    }
+
+    .thesis-exhibits-entire-container {
+        width: 1024px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .thesis {
+        display: flex; 
+        flex-direction: row;
+    }
+    .thesis-exhibits-title {
+        width: 100%;
+        margin: 0;
+    }
+    .thesis .left-middle-container {
+        border: none;
+    }
+    
+    video {
+        height: 100%;
+    }
 
 
 
