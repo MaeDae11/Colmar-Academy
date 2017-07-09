@@ -17,7 +17,6 @@ html {
 .banner-image-container {
     height: 180px;
     width: 100%;
-    background-color: gray;
 }
 
 .banner-image {
@@ -33,6 +32,26 @@ html {
     padding: 16px 32px;
 }
 
+.start-here {
+    background-color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 100%;
+}
+
+
+/*large images for desktop set to display:none*/
+.large {
+    display: none;
+}
+.main-story-image {
+    display: none;
+}
+.main-story-info {
+    display: none;
+}
+
 
 
 /*middle articles*/
@@ -40,12 +59,6 @@ html {
     width: 100%;
 }
 
-
-
-/*large images for desktop set to display:none*/
-.large {
-    display: none;
-}
 .left-middle-container {
     border-bottom: .75px solid lightgrey;
     padding-bottom: 32px;
@@ -123,9 +136,9 @@ video {
 .thesis-exhibits-entire-container .left-middle-container {
     display: none;
 }
-
-
-
+.thesis-exhibits-info {
+    display: none;
+}
 
 
 
@@ -140,4 +153,132 @@ video {
     padding-top: 16px;
     padding-bottom: 16px;
     margin-top: 24px;
+}
+
+
+@media only screen and (min-width: 700px){
+
+
+    .col-two-thirds {
+        width: 60%;
+        float: left;
+        border: 2px solid yellow;
+    }
+    /*.col-third {
+        width: 35%;
+        float: left;
+        border: 2px solid pink;
+    }*/
+    .row {
+        width: 100%;
+        clear: both;
+    }
+    .small {
+        display: none;
+    }
+    .navigation-header {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    /*banner desktop*/
+    .banner {
+        width: 1024px;
+        display: flex;
+        margin: 0 auto;
+        background-color: lightgrey;
+        padding-bottom: 32px;
+    }
+
+    .banner-image-container {
+        height: 100%;
+        padding-top: 32px;
+        padding-left: 24px; 
+        padding-right: 20px;
+    }
+
+    .banner-image {
+        display: unset;
+    }
+    .banner-image img {
+        width: 100%;
+    }
+
+    .banner-slogan-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 423px;
+        padding-left: 20px;
+        border: 2px solid pink;
+    }
+
+    .banner-slogan {
+        padding: 0;
+        width: 70%;
+    }
+
+    .large {
+        display: unset;
+    }
+    .main-story-image {
+        display: unset;
+    }
+    .main-story-info {
+        display: unset;
+    }
+
+    /*******************/
+    /*middle container*/
+    .entire-middle-content-container {
+        width: 1024px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .main-story-image img {
+        width: 100%;
+    }
+
+    .main-story-container {
+        padding: 0;
+        margin: 0;
+        padding-left: 24px; 
+        padding-right: 24px;
+        padding-top: 32px;
+    }
+
+    /*left side small articles*/
+    .left-middle-container {
+        border-bottom: .75px solid lightgrey;
+        padding-bottom: 32px;
+        clear: both;
+    }
+    /*left side small articles*/
+    .middle-article-container {
+        padding: 0;
+        padding-top: 32px;
+        width: 423px;
+        display: flex;
+        border-left: .75px solid lightgrey;
+        border-bottom: .75px solid lightgrey;
+        border: 2px solid pink;
+    }
+    /*left side small images*/
+    .middle-article-image {
+        width: 35%;
+        margin-left: 16px;
+    }
+    .middle-article-image img {
+        width: 100%;
+    }
+    /*left side small info*/
+    .middle-article-info {
+        width: 60%;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+
+
 }
