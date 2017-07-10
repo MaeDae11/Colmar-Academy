@@ -1,0 +1,19 @@
+# Colmar-Academy
+Codecademy Ready Project: Responsive Website with personal Design and UI choices
+
+Overall:
+This project focuses on Design and UI choices along with further honing in on CSS and HTML layouts. 
+The general layout and content was provided for desktop and mobile version; however, color and typography was not. The idea behind the project was a school needing a new website that was available on a mobile device as well.
+
+
+
+Difficulties:
+1. This project started with the mobile layout first opposed to my past projects of starting with the desktop and scaling down the content. It was interesting going in the opposite direction, especially since the desktop version had much more content and photos.
+2. Finding background colors that complemented the rest of the website nicely while still showing a contrast of color, not coming out too washed out or looking too peach, grey, etc.
+
+
+
+Changes wanting to make in future:
+1. Right now, there are no @media queries between the desktop and mobile version. I'd like to add at least one, or two more @media min-widths in between.
+2. Some aspects were ready for clickable aspects. I'd like to make sure that on mobile versions that these aspects are hidden.
+
