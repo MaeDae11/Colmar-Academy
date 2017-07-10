@@ -12,6 +12,7 @@ html {
     justify-content: center;
     width: 100%;
     background-color:#f3ede1;
+    border-bottom: 1px solid #782f40;
 }
 .mobile-icons {
     width: 100%;
