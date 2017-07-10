@@ -8,7 +8,21 @@ html {
 .navigation-header {
     height: 64px;
     display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mobile-icons {
+    width: 100%;
+    display: flex;
     justify-content: space-around;
+}
+
+/*navigation desktop*/
+.desktop-icons {
+    display: none;
+}
+.navigation-desktop-info {
+    display: none;
 }
 
 
@@ -17,7 +31,9 @@ html {
 .banner-image-container {
     height: 180px;
     width: 100%;
+    background-color: grey;
 }
+
 
 .banner-image {
     display: none;
@@ -159,17 +175,13 @@ video {
 /**********************************/
 /**********************************/
 /**********************************/
-@media only screen and (min-width: 700px){
+@media only screen and (min-width: 900px){
 
     .col-two-thirds {
         width: 60%;
         float: left;
     }
-    /*.col-third {
-        width: 35%;
-        float: left;
-        border: 2px solid pink;
-    }*/
+
     .row {
         width: 100%;
         clear: both;
@@ -180,6 +192,34 @@ video {
     .navigation-header {
         width: 1024px;
         margin: 0 auto;
+    }
+
+    /*navigation*/
+    .mobile-icons {
+        display: none;
+    }
+    .navigation-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .desktop-icons {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 16px;
+    }
+    .colmar {
+        color: grey;
+    }
+    .academy {
+        color: lightgrey;
+    }
+    .navigation-desktop-info {
+        display: unset;
+    }
+    .navigation-desktop-info span {
+        padding-right: 16px;
     }
 
     /*banner desktop*/
@@ -196,6 +236,7 @@ video {
         padding-top: 32px;
         padding-left: 24px; 
         padding-right: 20px;
+        background-color: lightgrey;
     }
 
     .banner-image {
@@ -347,13 +388,33 @@ video {
     }
     .thesis .left-middle-container {
         border: none;
+        padding-top: 0;
     }
-    
     video {
         height: 100%;
     }
 
 
-
+    /*footer*/
+    .footer-container {
+        width: 1024px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .terms-privacy {
+        display: flex;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-top: 24px;
+    }
+    .terms-privacy h5 {
+        padding-right: 24px;
+    }
 
 }
+
+
+
+
