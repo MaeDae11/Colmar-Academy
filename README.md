@@ -21,3 +21,10 @@ The wireframe was provided for desktop and mobile version; however, color and ty
 <li>Some aspects were ready for clickable aspects. I'd like to make sure that on mobile versions that these aspects are hidden.</li>
 </ul>
 
+
+<img src="resoucres/images/AcademyPhoto1.png" alt="snip of webpage">
+<h4>Section created with flexbox</h4>
+<br />
+
+<img src="resources/images/AcademyMobilePhoto.png" alt="mobile snip of webpage">
+<h4>Displays mobile responsive website.</h4>
