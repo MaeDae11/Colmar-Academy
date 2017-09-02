@@ -22,7 +22,7 @@ The wireframe was provided for desktop and mobile version; however, color and ty
 </ul>
 
 
-<img src="resoucres/images/AcademyPhoto1.png" alt="snip of webpage">
+<img src="resources/images/AcademyPhoto1.png" alt="snip of webpage">
 <h4>Section created with flexbox</h4>
 <br />
 
