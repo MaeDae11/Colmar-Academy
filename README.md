@@ -1,7 +1,7 @@
 # Colmar-Academy
 Codecademy Ready Project: Responsive Website with personal Design and UI choices
 
-<a href="https://d1pabtkmdydeln.cloudfront.net/">AWS Website</a>
+<a target="_blank" rel="noopener noreferrer" href="https://d1pabtkmdydeln.cloudfront.net/">AWS Website</a>
 
 <b>Overall:</b>
 <p>This project focuses on Design and UI choices along with further honing in on CSS and HTML layouts. 
